@@ -3,12 +3,12 @@
 ## ___Sumário___ ##
 - [___Atividade 05_1___](#atividade-051)
 	- [___Sumário___](#sum%C3%A1rio)
-	- [__srv-apps__ - Servidor que será monitorado](#srv-apps---servidor-que-ser%C3%A1-monitorado)
-	- [__monitor-unitins__ - Servidor contendo programa de monitoramento Cacti.](#monitor-unitins---servidor-contendo-programa-de-monitoramento-cacti)
+	- [__Srv-apps__ - Servidor que será monitorado](#srv-apps---servidor-que-ser%C3%A1-monitorado)
+	- [__Monitor-unitins__ - Servidor contendo programa de monitoramento Cacti.](#monitor-unitins---servidor-contendo-programa-de-monitoramento-cacti)
 		- [Configurando host no Cacti](#configurando-host-no-cacti)
 		- [Configurando os gráficos](#configurando-os-gr%C3%A1ficos)
 
-## __srv-apps__ - Servidor que será monitorado ##
+## __Srv-apps__ - Servidor que será monitorado ##
 Para monitorar este host, é necessário instalar o SNMP (protocolo de monitoramento) que permitirá ao Cacti capturar os dados desta máquina
 
 1. Instalar o snmp
@@ -35,7 +35,7 @@ Após instalar é necessário configurar o serviço snmpd para permitir a captur
 	$netstat -nlup
 	```
 __________________________________________________________________
-## __monitor-unitins__ - Servidor contendo programa de monitoramento Cacti. ##
+## __Monitor-unitins__ - Servidor contendo programa de monitoramento Cacti. ##
 
 ### Configurando host no Cacti
 Primeiramente é necessário adicionar o host que será monitorado.
