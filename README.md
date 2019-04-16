@@ -25,7 +25,7 @@ Após instalar é necessário configurar o serviço snmpd para permitir a captur
 	$netstat -nlup
 	```
 __________________________________________________________________
-## ___monitor-unitins___ - Servidor contendo programa de monitoramento Cacti.
+## __monitor-unitins__ - Servidor contendo programa de monitoramento Cacti.
 
 ### Configurando host no Cacti
 Primeiramente é necessário adicionar o host que será monitorado.
@@ -42,3 +42,25 @@ Nesta tela basta preencher os dados do servidor **srv-apps**
 ![cacti_3](i3.jpg)
 
 ### Configurando os gráficos
+
+Indo para a página **New Graphs**, localizada no menu lateral esquerdo, é possível configurar quais gráficos serão gerados a partir do dados capturados do host remoto.
+
+Neste campo deve-se marcar todas as caixas no **Graph Templates** e clique em confirmar na parte mais baixa da página. Após isso o usuário deve se direcionar à página **Graph Trees**.
+
+![cacti_4](i4.jpg)
+
+Nesta página deve-se clicar no botão **Add** na extremidade direita da barra azul, acessando a página referente à configuração de uma nova arvore de gráficos.
+
+![cacti_5](i5.jpg)
+
+Aqui deve-se preencher apenas o campo **Name** e depois clicar em **Save**, após isso, na próxima página, o usuário deverá preecher os campos da mesma forma que as imagens abaixo e depois clicar em "Create".
+
+![cacti_6](i6.jpg)
+
+Após isso basta acessar a aba **graphs** na parte superior esquerda da página para visualizar os gráficos gerados.
+
+![cacti_7](i7.jpg)
+
+![cacti_8](i8.jpg)
+
+![cacti_9](i9.jpg)
